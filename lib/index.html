@@ -11,19 +11,19 @@
 </head>
 <body>
 
-<div class="container" style="display: block;">
+<div class="container-fluid" style="display: block;">
 
-    <!-- Main hero unit for a primary marketing message or call to action -->
-    <div class="hero-unit dmc_block" id="test">
-        <h1>Bootswatcher</h1>
-        <p>Create your theme for Twitter Bootstrap.</p>
+    <div class='row-fluid'>
+        <div class="hero-unit " >
+            <h1>Bootswatcher</h1>
+            <p>Create your theme for Twitter Bootstrap.</p>
+        </div>
     </div>
 
     <!-- Typography -->
     <section id="typography">
-        <div class="page-header">
-            <h1>Typography</h1>
-        </div>
+        <h1 class='page-header'>Typography</h1>
+
 
         <!-- Headings & Paragraph Copy -->
         <div class="row">
@@ -66,9 +66,9 @@
 
     <!-- Navbars -->
     <section id="navbar">
-        <div class="page-header">
-            <h1>Navbars</h1>
-        </div>
+
+            <h1 class="page-header">Navbars</h1>
+
         <div class="navbar">
             <div class="navbar-inner">
                 <div class="container" style="width: auto;">
@@ -166,12 +166,27 @@
         </div><!-- /navbar -->
 
     </section>
+    <section class='row-fluid container-fluid'>
+        <h1 class='page-header'>
+            Alerts
+        </h1>
 
+        <div class='alert alert-success'>
+            An alert with something <b>important</b> to say!
+        </div> 
+        <div class='alert alert-info'>
+            An alert with something <b>important</b> to say!
+        </div> 
+        <div class='alert alert-warning'>
+            An alert with something <b>important</b> to say!
+        </div> 
+        <div class='alert alert-error'>
+            An alert with something <b>important</b> to say!
+        </div>
+    </section> 
     <!--Dropdowns-->
     <section id="dropdown">
-        <div class="page-header">
-            <h1>Dropdowns</h1>
-        </div>
+        <h1 class="page-header">Dropdowns</h1>
         <div class="dropdown">
             <!-- Link or button to toggle dropdown -->
             <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" style="display: block; position: static; margin-bottom: 5px; width: 180px;">
@@ -529,21 +544,21 @@
         <div class="row">
             <div class="pagination span3">
                 <ul>
-                    <li class="disabled"><a href="#">«</a></li>
+                    <li class="disabled"><a href="#">&larr;</a></li>
                     <li class="active"><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                     <li><a href="#">4</a></li>
-                    <li><a href="#">»</a></li>
+                    <li><a href="#">&rarr;</a></li>
                 </ul>
             </div>
             <div class="pagination span3">
                 <ul>
-                    <li><a href="#">←</a></li>
+                    <li><a href="#">&larr;</a></li>
                     <li class="active"><a href="#">10</a></li>
                     <li class="disabled"><a href="#">...</a></li>
                     <li><a href="#">20</a></li>
-                    <li><a href="#">→</a></li>
+                    <li><a href="#">&rarr;</a></li>
                 </ul>
             </div>
             <div class="pagination pagination-centered span3">
@@ -580,13 +595,7 @@
         </div>
     </section>
 
-    <hr class="" id="">
 
-    <footer class="" id="">
-        <div class="">
-            <p>© 2012 Dezmin</p>
-        </div>
-    </footer>
 
 </div>
 
